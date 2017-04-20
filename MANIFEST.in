@@ -1,0 +1,8 @@
+include setup.py
+include README.md
+include LICENSE
+
+recursive-include minicms *.py
+
+global-exclude *.pyc
+global-exclude *.pyo
